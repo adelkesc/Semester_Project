@@ -6,9 +6,9 @@ public class LoopPattern
    {
       final int BaseSize = 0;
       
-      for (int r = 7; r > BaseSize; r--)
+      for (int row = 7; row > BaseSize; row--)
       {
-         for (int c = 7; c > (r-1); c--)
+         for (int column = 0; column < row; column++)
          {
             System.out.print("*");
          }
