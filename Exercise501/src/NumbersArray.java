@@ -1,4 +1,3 @@
-
 //Use keyboard to store 10 integers into an array, then use a loop to print the
 //array in reverse order
 
@@ -20,7 +19,7 @@ public class NumbersArray
       for (int i = 0; i < 10; i++)
       {
          System.out.println("index: " + i);
-         System.out.print(" ");
+         System.out.print("");
          numbers[i] = keyboard.nextInt();
       }
 

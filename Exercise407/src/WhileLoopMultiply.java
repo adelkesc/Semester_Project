@@ -11,7 +11,7 @@ public class WhileLoopMultiply
       double product;
       int multiply = 10;
       
-      //Declaring method of and collecting user input
+      //Object for collecting user input
       Scanner keyboard = new Scanner (System.in);
       
       System.out.print("Please enter a number: ");
@@ -19,11 +19,12 @@ public class WhileLoopMultiply
       
       //Multiplication by 10
       product = number * multiply;
+      System.out.println("Product: " + product);
       
       while (product < 100)
       {
-         System.out.println("The product is: " + product);
-         product++;
+         product = product + multiply;
+         System.out.println("Iteration: " + product);
       }
       keyboard.close();
    }

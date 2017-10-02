@@ -9,13 +9,13 @@ public class WhileLoopValidation
       //Declared variable
       int number;
       
-      //Requested input      
+      //Requesting user input      
       System.out.print("Please enter a number in the range of 10 through 25: ");
       
       Scanner keyboard = new Scanner(System.in);
       number = keyboard.nextInt();
       
-      //Input validation (I couldn't make it work because I was typing the
+      //Input validation (I couldn't make it work at first because I was typing the
       //logic backwards)
       while (number < 10 || number > 25)
       {

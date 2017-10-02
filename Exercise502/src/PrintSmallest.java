@@ -9,7 +9,7 @@ public class PrintSmallest
       
       Scanner keyboard = new Scanner(System.in);
       
-      System.out.println("Enter a number:");
+      System.out.println("Enter seven numbers:");
       
       //Collect user input for array
       for(int value = 0; value < 7; value++)
