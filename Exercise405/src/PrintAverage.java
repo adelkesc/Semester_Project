@@ -24,9 +24,6 @@ public class PrintAverage
       }
       System.out.println("The average is: " + average);
       
-      //Which keyword do I need to change and not change so the average
-      //won't truncate the decimal?
-      
       keyboard.close();
    }
 }
