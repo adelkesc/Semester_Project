@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="354.0" prefWidth="376.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="86.0" layoutY="78.0" text="Name:" />
+      <Label layoutX="79.0" layoutY="120.0" text="Subject:" />
+      <Label layoutX="85.0" layoutY="162.0" text="E-mail:" />
+      <Label layoutX="86.0" layoutY="203.0" text="Salary:" />
+      <Button layoutX="155.0" layoutY="257.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="102.0" text="Add Lecturer" />
+      <TextField layoutX="131.0" layoutY="74.0" />
+      <TextField layoutX="131.0" layoutY="116.0" />
+      <TextField layoutX="131.0" layoutY="158.0" />
+      <TextField layoutX="131.0" layoutY="199.0" />
+   </children>
+</AnchorPane>
